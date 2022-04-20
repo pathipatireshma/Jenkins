@@ -8,5 +8,15 @@ pipeline {
                    sh 'echo Hello World'
                    }
             }
+        stage('terraform PLAN') {
+            steps {
+                   sh 'echo Hello World'
+                   }
+            }
+        stage('terraform APPLY') {
+                    steps {
+                           sh 'echo Hello World'
+                           }
+                    }
         }
     }
