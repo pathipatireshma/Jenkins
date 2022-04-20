@@ -3,7 +3,7 @@ pipeline {
     stages {
 
         stage('terraform INIT') {
-            agent none ( lebel 'workstation' )
+            agent node ( lebel 'workstation' )
             steps {
                    sh 'echo Hello World'
             }
